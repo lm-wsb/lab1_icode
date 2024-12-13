@@ -16,7 +16,7 @@ permissions:
 jobs:
   some-name:
 
-    runs-on: some-os
+    runs-on: ubuntu-latest
 
     defaults:
       run:
