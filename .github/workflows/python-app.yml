@@ -12,10 +12,15 @@ on:
 permissions:
   contents: read
 
-jobs:
-  build:
 
-    runs-on: ubuntu-latest
+jobs:
+  some-name:
+
+    runs-on: some-os
+
+    defaults:
+      run:
+        working-directory: ./example-app
 
     steps:
     - uses: actions/checkout@v4
